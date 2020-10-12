@@ -1,3 +1,11 @@
+# 点击菜单滚动页面效果
+
+功能：点击顶部菜单，自动滚动页面到对应位置，同时菜单位置会有标记自动锁定为当前的菜单。
+
+例子demo: [https://niao-yu.github.io/menu_scroll/index.html](https://niao-yu.github.io/menu_scroll/index.html)
+
+由于本项目是使用了编译工具，上面的例子中的文件都是编译打包压缩过的，想看源码需要clone当前的master分支，查看src文件夹中内容，使用了es6 + sass。
+
 ## 本项目使用「极速零配置Web应用打包工具——```parceljs```」进行编译。 ##
 
 ## parceljs官网地址：[https://zh.parceljs.org/](https://zh.parceljs.org/) ##
