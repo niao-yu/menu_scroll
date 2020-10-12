@@ -1,0 +1,98 @@
+*, html, body {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+body {
+  color: #fff;
+}
+body .headBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 95px;
+  padding: 0 100px;
+}
+body .headBox .right {
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 0;
+  top: 0;
+  -webkit-flex: none;
+     -moz-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+body .headBox .right button {
+  font-size: 18px;
+  color: #FFFFFF;
+  white-space: nowrap;
+  padding: 0 20px;
+  -moz-box-sizing: content-box;
+       box-sizing: content-box;
+}
+body .headBox .right button.active, body .headBox .right button:hover {
+  color: #ED007E;
+}
+body .headBox .right .flagLine {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 3px;
+  width: 0;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+body .headBox .right .flagLine::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  background: #ED007E;
+}
+body .a {
+  height: 400px;
+  background-color: #596;
+}
+body .b {
+  padding-bottom: 20px;
+  height: 300px;
+  background-color: #879;
+}
+body .c {
+  height: 400px;
+  background-color: #857;
+}
+body .d {
+  height: 500px;
+  background-color: #596;
+}
+body .e {
+  height: 300px;
+  background-color: #243;
+}
+body .f {
+  height: 700px;
+  background-color: #187;
+}
